@@ -1,3 +1,4 @@
+//Code to connect to the database
 <?php
 session_start();
 // initializing variables
