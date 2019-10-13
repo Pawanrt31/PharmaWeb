@@ -21,7 +21,6 @@ else
 </script>
 </head>
 <body style="background-image:url(medical4.jpg);background-repeat:no-repeat;background-position:center;background-size:cover">
-
 <div class="header">
 	<h2>Search a medicine</h2>
 </div>
@@ -31,7 +30,7 @@ else
    <input type="text" name="medname" >
   	</div>
 	<div class="input-group">
-  		<button type="submit" class="btn" name="search">Search</button>
+  		<button type="submit" class="btn" name="search" onclick="search1.php">Search</button>
   	</div>
 	<a href="home.php">Go back to home page?</a>
 </form>   
