@@ -1,3 +1,4 @@
+//Code to update the fields of medicine
 <?php 
 session_start();
 
@@ -26,18 +27,10 @@ if(empty($newcode))
 {
 	array_push($errors ,"New value is required");
 }
-
 $user_check_query = "SELECT * FROM medicine WHERE med_code='$medcode' LIMIT 1";
-  $result = mysqli_query($db, $user_check_query);
-  $medicine = mysqli_fetch_assoc($result);
-  
-  //if (!$medicine) { // if user exists
-  //  if ($medicine['med_code'] !== $medcode) {
-  //    array_push($errors, "Medicine doesn't exists");
-   // }
-  //}
-
- if(count($errors)==0)
+$result = mysqli_query($db, $user_check_query);
+$medicine = mysqli_fetch_assoc($result);
+if(count($errors)==0)
  {
 	 if(strcmp($upcode,"Name")==0)
 	 {
@@ -123,7 +116,5 @@ else
   	</div>
 	<a href="home.php">Go back</a>
 </form>   
-
-		
 </body>
 </html>
