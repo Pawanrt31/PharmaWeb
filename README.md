@@ -10,3 +10,7 @@ Flow:
 6. Deletion involves searching for the appropriate record based on name or manufacture number and the respective medicine can be deleted.
 7. Updation involves updating any one field of the medicine.
 8. Viewing supports viewing of the entire contents.
+9. A normal user who just wants to search and view the contents of medicine can also accomplish the task by clicking on the user link.
+10. Upon clicking the user link, the user lands on the page where there are two operations that the user can choose from either search or viewing of all the medicines.
+11. Searching involves searching the database with the specific name.
+12. Viewing is also supported which displays the entire contents of the database onto the webpage.
