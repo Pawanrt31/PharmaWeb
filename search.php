@@ -1,3 +1,4 @@
+//Code to search for a medicine
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +27,7 @@ else
 </div>
 <form method="post" action="search.php" onSubmit="myfunc()">
    <div class="input-group">
-    <label>Enter the Name of the medicine to be searched</label>
+    <label>Enter the name of the medicine to be searched</label>
    <input type="text" name="medname" >
   	</div>
 	<div class="input-group">
