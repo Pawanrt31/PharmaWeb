@@ -1,4 +1,4 @@
-# Online-Pharmaceutical-System
+# PharmaWeb (Online-Pharmaceutical-System)
 
 The project involves facilitating the process of medicine management with the help of an interactive user interface.
 Flow:
