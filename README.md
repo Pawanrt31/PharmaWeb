@@ -14,3 +14,7 @@ Flow:
 10. Upon clicking the user link, the user lands on the page where there are two operations that the user can choose from either search or viewing of all the medicines.
 11. Searching involves searching the database with the specific name.
 12. Viewing is also supported which displays the entire contents of the database onto the webpage.
+
+Technology Stack:
+* HTML, CSS, Javascript.
+* PHP, MYSQL
